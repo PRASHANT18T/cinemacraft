@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    
+}
+
+
+.card-heding{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 570px;
+}
+
+
+
+.card-heding p{
+    font-size: 25px;
+    text-align: center;
+    color: #48cae4;
+    text-shadow:   0px 0px 10px #48cae4 , 
+    0px 0px 20px #48cae4   ,
+  0px 0px 40px  #48cae4,
+  0px 0px 80px  #48cae4;
+  
+  
+}
+
+#backimg{
+    background-image: url(img-/movie-background-collage.jpg);
+}
+
+.view-more {
+    text-decoration: none;
+    color: white;
+  margin: 0 0 0 25px;
+    height:40px;
+    width: 150px;
+    animation: colorchange 1s infinite;
+    
+    
+}
+@keyframes colorchange {
+0% {
+    text-shadow:   0px 0px 10px #00b4d8, 
+    0px 0px 20px  #00b4d8   ,
+  0px 0px 40px   #00b4d8
+  0px 0px 80px   #00b4d8;
+}
+
+100% {
+    text-shadow:   0px 0px 10px #fdf0d5 , 
+    0px 0px 20px #fdf0d5   ,
+  0px 0px 40px  #fdf0d5,
+  0px 0px 80px  #fdf0d5;
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+.footer {
+    background: #111;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer .footer-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .footer-links a {
+    color: #aaa;
+    margin: 0 15px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+  }
+  
